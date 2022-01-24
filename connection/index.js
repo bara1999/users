@@ -4,7 +4,7 @@ var con = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "",
-  database: "users",
+  database: "exchanges",
 });
 
 module.exports = con;
